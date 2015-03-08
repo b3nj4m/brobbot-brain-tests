@@ -6,6 +6,9 @@
   "scripts": {
     "test": "./index.js"
   },
+  "bin": {
+    "brobbot-brain-tests": "index.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/b3nj4m/brobbot-brain-tests"

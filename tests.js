@@ -13,6 +13,16 @@ var Brain = require(resolveBrain(brainName));
 var brain = new Brain(robot);
 
 describe(brainName + ' brain', function() {
+  describe('reset', function() {
+    it('should reset the datastore', function() {
+      return brain.reset().then(function() {
+        return brain.keys().then(function(keys) {
+          assert.strictEqual(keys.length, 0);
+        });
+      });
+    });
+  });
+
   describe('users', function() {
     it('should add users', function() {
       return Q.all([
