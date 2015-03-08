@@ -1,0 +1,33 @@
+{
+  "name": "brobbot-brain-tests",
+  "version": "1.0.0",
+  "description": "Tests for Brobbot brain modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/b3nj4m/brobbot-brain-tests"
+  },
+  "keywords": [
+    "brobbot",
+    "test"
+  ],
+  "author": "Ben Robbins <ben.robbins@gmail.com> (https://b3nj4m.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/b3nj4m/brobbot-brain-tests/issues"
+  },
+  "homepage": "https://github.com/b3nj4m/brobbot-brain-tests",
+  "peerDependencies": {
+    "brobbot": "4.x - 5.x"
+  },
+  "dependencies": {
+    "coffee-script": "^1.9.1",
+    "lodash": "^3.4.0",
+    "minimist": "^1.1.0",
+    "mocha": "^2.2.0",
+    "q": "^1.2.0"
+  }
+}
