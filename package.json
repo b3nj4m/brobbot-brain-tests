@@ -1,6 +1,6 @@
 {
   "name": "brobbot-brain-tests",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Tests for Brobbot brain modules",
   "main": "index.js",
   "scripts": {
