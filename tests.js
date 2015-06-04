@@ -382,7 +382,7 @@ describe(brainName + ' brain', function() {
       });
     });
 
-    it('should get table as object', function() {
+    it('should get table as Map', function() {
       return brain.hgetall(tableName).then(function(map) {
         assert.strictEqual(map.get(keyName).salsa, value.salsa);
       });

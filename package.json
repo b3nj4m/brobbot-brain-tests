@@ -24,10 +24,9 @@
   },
   "homepage": "https://github.com/b3nj4m/brobbot-brain-tests",
   "peerDependencies": {
-    "brobbot": "4.x - 5.x"
+    "brobbot": "6.x"
   },
   "dependencies": {
-    "coffee-script": "^1.9.1",
     "lodash": "^3.4.0",
     "minimist": "^1.1.0",
     "mocha": "^2.2.0",
